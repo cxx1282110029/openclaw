@@ -1,0 +1,22 @@
+# Test files
+simple_test.py
+test_hb.py
+test_heartbeat.py
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
