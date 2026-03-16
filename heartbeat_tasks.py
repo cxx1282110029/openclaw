@@ -39,7 +39,7 @@ class HeartbeatChecker:
             json.dump(self.state, f, indent=2, ensure_ascii=False)
     
     def _should_alert(self, key: str, cooldown_hours: int = 2) -> bool:
-        """检查是否应该发送告警（避免重复）"""
+        """检查是否应该发送告警[CHAR]避免重复[CHAR]"""
         now = datetime.now()
         last_alert = self.state.get("alertHistory", {}).get(key)
         
@@ -61,7 +61,7 @@ class HeartbeatChecker:
         """检查项目状态"""
         for name, path in PROJECTS.items():
             if not os.path.exists(path):
-                msg = f"⚠️ 项目 `{name}` 路径不存在: {path}"
+                msg = f"[CHAR][CHAR] 项目 `{name}` 路径不存在: {path}"
                 if self._should_alert(f"missing_{name}"):
                     self.alerts.append(msg)
                     self._record_alert(f"missing_{name}")
@@ -87,7 +87,7 @@ class HeartbeatChecker:
                             
                             for line in recent_lines:
                                 if 'error' in line.lower() or 'exception' in line.lower():
-                                    msg = f"⚠️ `{name}` 最近有错误日志:\n```\n{line[:100]}...\n```"
+                                    msg = f"[CHAR][CHAR] `{name}` 最近有错误日志:\n```\n{line[:100]}...\n```"
                                     if self._should_alert(f"error_{name}", cooldown_hours=1):
                                         self.alerts.append(msg)
                                         self._record_alert(f"error_{name}")
@@ -103,7 +103,7 @@ class HeartbeatChecker:
             memory_file.parent.mkdir(parents=True, exist_ok=True)
             with open(memory_file, 'w', encoding='utf-8') as f:
                 f.write(f"# {today}\n\n## Heartbeat 自动创建\n\n")
-            self.alerts.append(f"📝 已自动创建今天的 memory 文件: {today}.md")
+            self.alerts.append(f"[NOTE] 已自动创建今天的 memory 文件: {today}.md")
     
     def check_gateway_status(self):
         """检查 Gateway 状态"""
@@ -116,12 +116,12 @@ class HeartbeatChecker:
             )
             
             if "running" not in result.stdout.lower():
-                msg = f"⚠️ Gateway 状态异常，可能需要重启\n```\n{result.stdout}\n```"
+                msg = f"[CHAR][CHAR] Gateway 状态异常[CHAR]可能需要重启\n```\n{result.stdout}\n```"
                 if self._should_alert("gateway_down"):
                     self.alerts.append(msg)
                     self._record_alert("gateway_down")
         except Exception as e:
-            msg = f"⚠️ 检查 Gateway 状态失败: {e}"
+            msg = f"[CHAR][CHAR] 检查 Gateway 状态失败: {e}"
             if self._should_alert("gateway_check_failed"):
                 self.alerts.append(msg)
                 self._record_alert("gateway_check_failed")
@@ -140,7 +140,7 @@ class HeartbeatChecker:
             if result.stdout.strip():
                 files = len(result.stdout.strip().split('\n'))
                 if files > 5 and self._should_alert("git_uncommitted", cooldown_hours=4):
-                    self.alerts.append(f"📦 Workspace 有 {files} 个未提交文件，建议执行 git commit")
+                    self.alerts.append(f"[GIT] Workspace 有 {files} 个未提交文件[CHAR]建议执行 git commit")
                     self._record_alert("git_uncommitted")
         except Exception:
             pass  # git 检查失败不告警
@@ -158,7 +158,7 @@ class HeartbeatChecker:
         self.state["lastCheck"] = datetime.now().isoformat()
         self._save_state()
         
-        print(f"✅ 检查完成，发现 {len(self.alerts)} 个问题")
+        print(f"[OK] 检查完成[CHAR]发现 {len(self.alerts)} 个问题")
         
         return self.alerts
 
@@ -168,8 +168,8 @@ if __name__ == "__main__":
     alerts = checker.run_all_checks()
     
     if alerts:
-        print("\n📢 需要通知的告警:")
+        print("\n[CHAR] 需要通知的告警:")
         for alert in alerts:
             print(f"  - {alert[:100]}...")
     else:
-        print("\n✨ 一切正常，无需通知")
+        print("\n[CHAR] 一切正常[CHAR]无需通知")
