@@ -147,7 +147,7 @@ class HeartbeatChecker:
     
     def run_all_checks(self) -> list:
         """运行所有检查"""
-        print(f"🔍 Heartbeat 检查开始 - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        print(f"Heartbeat 检查开始 - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
         
         self.check_projects()
         self.check_memory_file()
