@@ -115,6 +115,14 @@ def check_git_status():
 
 def main():
     """主函数"""
+    # 设置控制台编码为UTF-8（Windows下）
+    try:
+        import sys
+        import io
+        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+    except:
+        pass
+    
     print(f"Heartbeat 检查开始 - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 50)
     
