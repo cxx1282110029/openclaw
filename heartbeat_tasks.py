@@ -135,15 +135,23 @@ def main():
     all_alerts.extend(check_git_status())
     
     print("=" * 50)
-    print(f"[OK] 检查完成，发现 {len(all_alerts)} 个问题")
+    
+    if len(all_alerts) == 0:
+        print(f"[OK] 检查完成，所有系统正常")
+        # 正常情况：返回1
+        return_code = 1
+    else:
+        print(f"[INFO] 检查完成，发现 {len(all_alerts)} 个需要注意的问题")
+        # 发现问题：返回0
+        return_code = 0
     
     if all_alerts:
-        print("\n需要关注的问题:")
+        print("\n需要注意的问题:")
         for i, alert in enumerate(all_alerts, 1):
             print(f"  {i}. {alert}")
     
-    # 返回退出码（0=正常，1=有问题）
-    return 0 if len(all_alerts) == 0 else 1
+    # 反转逻辑：发现问题为0，正常为1
+    return return_code
 
 if __name__ == "__main__":
     exit_code = main()
