@@ -1,0 +1,32 @@
+{
+  "monthly_usage": {
+    "current_month": "2026-03",
+    "total_searches": 5,
+    "successful_searches": 4,
+    "failed_searches": 1
+  },
+  "daily_usage": {
+    "2026-03-28": {
+      "total": 5,
+      "successful": 4,
+      "failed": 1,
+      "avg_response_time": 1.4,
+      "response_times": [
+        1.0,
+        1.2,
+        1.4,
+        1.6,
+        1.8
+      ]
+    }
+  },
+  "hourly_usage": {
+    "2026-03-28 19:00": 5
+  },
+  "alert_history": [],
+  "rate_limits": {
+    "monthly_limit": 1000,
+    "daily_limit": 33,
+    "hourly_limit": 50
+  }
+}

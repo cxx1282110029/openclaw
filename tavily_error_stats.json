@@ -1,0 +1,64 @@
+{
+  "total_errors": 4,
+  "error_by_type": {
+    "system": 4
+  },
+  "error_by_hour": {
+    "2026-03-28 19:00": 4
+  },
+  "recovery_attempts": 0,
+  "successful_recoveries": 0,
+  "last_error": {
+    "timestamp": "2026-03-28T19:04:16.257184",
+    "type": "system",
+    "error": "模拟失败 (第2次)",
+    "context": {
+      "function": "failing_function",
+      "attempt": 2,
+      "max_retries": 2
+    },
+    "resolved": false
+  },
+  "error_history": [
+    {
+      "timestamp": "2026-03-28T19:04:15.254563",
+      "type": "system",
+      "error": "测试网络连接错误",
+      "context": {
+        "test": true
+      },
+      "resolved": false
+    },
+    {
+      "timestamp": "2026-03-28T19:04:15.255598",
+      "type": "system",
+      "error": "测试数据格式错误",
+      "context": {
+        "test": true
+      },
+      "resolved": false
+    },
+    {
+      "timestamp": "2026-03-28T19:04:15.256289",
+      "type": "system",
+      "error": "模拟失败 (第1次)",
+      "context": {
+        "function": "failing_function",
+        "attempt": 1,
+        "max_retries": 2
+      },
+      "resolved": false
+    },
+    {
+      "timestamp": "2026-03-28T19:04:16.257184",
+      "type": "system",
+      "error": "模拟失败 (第2次)",
+      "context": {
+        "function": "failing_function",
+        "attempt": 2,
+        "max_retries": 2
+      },
+      "resolved": false
+    }
+  ]
+}
