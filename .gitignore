@@ -8,6 +8,48 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Log files
+*.log
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OpenClaw specific
+media/
+tmp/
+*.lock
+*.pid
+
+# Data files (large or sensitive)
+*.jsonl
+*.csv
+*.xlsx
+*.pdf
+
+# API keys and secrets
+*.env
+*.key
+*.pem
+*.crt
 .Python
 
 # Logs
