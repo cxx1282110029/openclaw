@@ -1,0 +1,190 @@
+﻿{
+    "code":  200,
+    "message":  "获取成功，开源地址 https://github.com/vikiboss/60s，反馈群 595941841",
+    "data":  {
+                 "location":  {
+                                  "name":  "江苏南京",
+                                  "province":  "江苏省",
+                                  "city":  "南京市",
+                                  "county":  ""
+                              },
+                 "weather":  {
+                                 "condition":  "阴",
+                                 "condition_code":  "02",
+                                 "temperature":  18,
+                                 "humidity":  41,
+                                 "pressure":  1008,
+                                 "precipitation":  0,
+                                 "wind_direction":  "东南风",
+                                 "wind_power":  "5-6",
+                                 "weather_icon":  "https://mat1.gtimg.com/qqcdn/xw/tianqi/bigIcon/heiye/02.png",
+                                 "weather_colors":  [
+                                                        "#546481",
+                                                        "#8993AF",
+                                                        "#DBC2A9"
+                                                    ],
+                                 "updated":  "2026-03-28 19:45:00",
+                                 "updated_at":  1774727100000
+                             },
+                 "air_quality":  {
+                                     "aqi":  53,
+                                     "level":  2,
+                                     "quality":  "良",
+                                     "pm25":  16,
+                                     "pm10":  53,
+                                     "co":  0.4,
+                                     "no2":  16,
+                                     "o3":  161,
+                                     "so2":  6,
+                                     "rank":  237,
+                                     "total_cities":  375,
+                                     "updated":  "2026-03-28 19:00:00",
+                                     "updated_at":  1774724400000
+                                 },
+                 "sunrise":  {
+                                 "sunrise":  "2026-03-28 06:00:00",
+                                 "sunrise_at":  1774677600000,
+                                 "sunrise_desc":  "06:00",
+                                 "sunset":  "2026-03-28 18:22:00",
+                                 "sunset_at":  1774722120000,
+                                 "sunset_desc":  "18:22"
+                             },
+                 "life_indices":  [
+                                      {
+                                          "key":  "airconditioner",
+                                          "name":  "空调开启",
+                                          "level":  "较少开启",
+                                          "description":  "您将感到很舒适，一般不需要开启空调。"
+                                      },
+                                      {
+                                          "key":  "allergy",
+                                          "name":  "过敏",
+                                          "level":  "较易发",
+                                          "description":  "天气条件较易诱发过敏，宜穿长衣长裤，远离过敏源，适当佩戴眼镜和口罩。"
+                                      },
+                                      {
+                                          "key":  "carwash",
+                                          "name":  "洗车",
+                                          "level":  "不适宜",
+                                          "description":  "将有降水，不宜洗车，建议至少1天后再洗车。"
+                                      },
+                                      {
+                                          "key":  "chill",
+                                          "name":  "风寒",
+                                          "level":  "无",
+                                          "description":  "温度未达到风寒所需的低温，稍作防寒准备即可。"
+                                      },
+                                      {
+                                          "key":  "clothes",
+                                          "name":  "穿衣",
+                                          "level":  "较冷",
+                                          "description":  "建议着厚外套加毛衣等服装。年老体弱者宜着大衣、呢外套加羊毛衫。"
+                                      },
+                                      {
+                                          "key":  "cold",
+                                          "name":  "感冒",
+                                          "level":  "较易发",
+                                          "description":  "相对今天出现了较大幅度降温，较易发生感冒，体质较弱的朋友请注意适当防护。"
+                                      },
+                                      {
+                                          "key":  "comfort",
+                                          "name":  "舒适度",
+                                          "level":  "较舒适",
+                                          "description":  "白天天气晴好，早晚会感觉偏凉，午后舒适、宜人。"
+                                      },
+                                      {
+                                          "key":  "diffusion",
+                                          "name":  "空气污染扩散条件",
+                                          "level":  "良",
+                                          "description":  "气象条件有利于空气污染物稀释、扩散和清除。"
+                                      },
+                                      {
+                                          "key":  "dry",
+                                          "name":  "路况",
+                                          "level":  "干燥",
+                                          "description":  "天气较好，路面比较干燥，路况较好。"
+                                      },
+                                      {
+                                          "key":  "drying",
+                                          "name":  "晾晒",
+                                          "level":  "适宜",
+                                          "description":  "天气不错，适宜晾晒。赶紧把久未见阳光的衣物搬出来吸收一下太阳的味道吧！"
+                                      },
+                                      {
+                                          "key":  "fish",
+                                          "name":  "钓鱼",
+                                          "level":  "较适宜",
+                                          "description":  "较适合垂钓，但风力稍大，会对垂钓产生一定的影响。"
+                                      },
+                                      {
+                                          "key":  "heatstroke",
+                                          "name":  "中暑",
+                                          "level":  "无中暑风险",
+                                          "description":  "天气不热，在炎炎夏日中十分难得，可以告别暑气漫漫啦~"
+                                      },
+                                      {
+                                          "key":  "makeup",
+                                          "name":  "化妆",
+                                          "level":  "保湿",
+                                          "description":  "风力不大，建议用中性保湿型霜类化妆品，无需选用防晒化妆品。"
+                                      },
+                                      {
+                                          "key":  "mood",
+                                          "name":  "心情",
+                                          "level":  "较好",
+                                          "description":  "天气较好，温度适宜，心情会不错，学习、工作效率较高。"
+                                      },
+                                      {
+                                          "key":  "morning",
+                                          "name":  "晨练",
+                                          "level":  "较不宜",
+                                          "description":  "风力稍大，较不宜晨练，室外锻炼请注意选择避风的地点，避免迎风锻炼。"
+                                      },
+                                      {
+                                          "key":  "sports",
+                                          "name":  "运动",
+                                          "level":  "较适宜",
+                                          "description":  "天气较好，但考虑风力较强且气温较低，推荐您进行室内运动，若在户外运动请注意防风并适当增减衣物。"
+                                      },
+                                      {
+                                          "key":  "sunglasses",
+                                          "name":  "太阳镜",
+                                          "level":  "必要",
+                                          "description":  "白天太阳辐射较强，建议佩戴透射比1级且标注UV380-UV400的浅色太阳镜"
+                                      },
+                                      {
+                                          "key":  "sunscreen",
+                                          "name":  "防晒",
+                                          "level":  "较弱",
+                                          "description":  "紫外线强度较弱，建议涂擦SPF在12-15之间，PA+的防晒护肤品。"
+                                      },
+                                      {
+                                          "key":  "tourism",
+                                          "name":  "旅游",
+                                          "level":  "适宜",
+                                          "description":  "天气较好，温度适宜，但风稍微有点大。这样的天气适宜旅游，您可以尽情地享受大自然的无限风光。"
+                                      },
+                                      {
+                                          "key":  "traffic",
+                                          "name":  "交通",
+                                          "level":  "良好",
+                                          "description":  "天气较好，路面干燥，交通气象条件良好，车辆可以正常行驶。"
+                                      },
+                                      {
+                                          "key":  "ultraviolet",
+                                          "name":  "紫外线强度",
+                                          "level":  "弱",
+                                          "description":  "紫外线强度较弱，建议涂擦SPF在12-15之间、PA+的防晒护肤品。"
+                                      },
+                                      {
+                                          "key":  "umbrella",
+                                          "name":  "雨伞",
+                                          "level":  "不带伞",
+                                          "description":  "天气较好，不会降水，因此您可放心出门，无须带雨伞。"
+                                      }
+                                  ],
+                 "alerts":  [
+
+                            ]
+             }
+}

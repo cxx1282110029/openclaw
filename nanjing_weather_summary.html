@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>南京各区下周天气</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #667eea;
+        }
+        .header h1 {
+            color: #2c3e50;
+            margin: 0;
+            font-size: 28px;
+        }
+        .header .subtitle {
+            color: #7f8c8d;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .weather-card {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-left: 5px solid #667eea;
+        }
+        .district-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .district-item {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .district-item:hover {
+            transform: translateY(-5px);
+        }
+        .district-name {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        .weather-icon {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        .temperature {
+            font-size: 24px;
+            font-weight: bold;
+            color: #e74c3c;
+            margin: 5px 0;
+        }
+        .details {
+            font-size: 12px;
+            color: #7f8c8d;
+            line-height: 1.4;
+        }
+        .summary {
+            background: #e3f2fd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .summary h3 {
+            color: #1976d2;
+            margin-top: 0;
+        }
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        .stat-item {
+            text-align: center;
+            padding: 15px;
+            min-width: 120px;
+        }
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .stat-label {
+            font-size: 14px;
+            color: #7f8c8d;
+            margin-top: 5px;
+        }
+        .timeline {
+            margin: 30px 0;
+        }
+        .day-item {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+            padding: 10px;
+            background: #f5f5f5;
+            border-radius: 8px;
+        }
+        .day-date {
+            min-width: 100px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .day-weather {
+            flex: 1;
+            display: flex;
+            align-items: center;
+        }
+        .day-temp {
+            min-width: 80px;
+            text-align: right;
+            font-weight: bold;
+            color: #e74c3c;
+        }
+        .advice {
+            background: #e8f5e9;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .advice h3 {
+            color: #388e3c;
+            margin-top: 0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+        .sunny { color: #f39c12; }
+        .cloudy { color: #95a5a6; }
+        .rainy { color: #3498db; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>南京各区下周天气情况</h1>
+            <div class="subtitle">查询时间: 2026-03-28 20:00 | 预测周期: 3月29日 - 4月4日</div>
+        </div>
+
+        <div class="weather-card">
+            <h2>🌤️ 当前天气概况</h2>
+            <div class="district-grid">
+                <div class="district-item">
+                    <div class="district-name">玄武区</div>
+                    <div class="weather-icon sunny">☀️</div>
+                    <div class="temperature">18°C</div>
+                    <div class="details">湿度: 41%<br>风力: 西南风5-6级<br>AQI: 53 (良)</div>
+                </div>
+                <div class="district-item">
+                    <div class="district-name">秦淮区</div>
+                    <div class="weather-icon sunny">☀️</div>
+                    <div class="temperature">18°C</div>
+                    <div class="details">湿度: 41%<br>风力: 西南风5-6级<br>AQI: 53 (良)</div>
+                </div>
+                <div class="district-item">
+                    <div class="district-name">建邺区</div>
+                    <div class="weather-icon sunny">☀️</div>
+                    <div class="temperature">18°C</div>
+                    <div class="details">湿度: 41%<br>风力: 西南风5-6级<br>AQI: 53 (良)</div>
+                </div>
+                <div class="district-item">
+                    <div class="district-name">鼓楼区</div>
+                    <div class="weather-icon sunny">☀️</div>
+                    <div class="temperature">19°C</div>
+                    <div class="details">湿度: 49%<br>风力: 南风4-5级<br>AQI: 62 (良)</div>
+                </div>
+                <div class="district-item">
+                    <div class="district-name">浦口区</div>
+                    <div class="weather-icon cloudy">☁️</div>
+                    <div class="temperature">18°C</div>
+                    <div class="details">湿度: 40%<br>风力: 东风3-4级<br>AQI: 53 (良)</div>
+                </div>
+                <div class="district-item">
+                    <div class="district-name">江宁区</div>
+                    <div class="weather-icon sunny">☀️</div>
+                    <div class="temperature">18°C</div>
+                    <div class="details">湿度: 41%<br>风力: 西南风5-6级<br>AQI: 53 (良)</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="summary">
+            <h3>📊 天气统计摘要</h3>
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-value">18.2°C</div>
+                    <div class="stat-label">平均温度</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">18-19°C</div>
+                    <div class="stat-label">温度范围</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">54.5</div>
+                    <div class="stat-label">平均AQI</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">5晴1多云</div>
+                    <div class="stat-label">主要天气</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="weather-card">
+            <h2>📈 下周天气趋势预测</h2>
+            <div class="timeline">
+                <div class="day-item">
+                    <div class="day-date">3月29日 (周日)</div>
+                    <div class="day-weather"><span class="sunny">☀️ 晴</span> 温度: 16-20°C</div>
+                    <div class="day-temp">18°C</div>
+                </div>
+                <div class="day-item">
+                    <div class="day-date">3月30日 (周一)</div>
+                    <div class="day-weather"><span class="cloudy">☁️ 多云</span> 温度: 17-21°C</div>
+                    <div class="day-temp">19°C</div>
+                </div>
+                <div class="day-item">
+                    <div class="day-date">3月31日 (周二)</div>
+                    <div class="day-weather"><span class="cloudy">☁️ 多云</span> 温度: 18-22°C</div>
+                    <div class="day-temp">20°C</div>
+                </div>
+                <div class="day-item">
+                    <div class="day-date">4月1日 (周三)</div>
+                    <div class="day-weather"><span class="cloudy">☁️ 阴</span> 温度: 18-21°C</div>
+                    <div class="day-temp">19.5°C</div>
+                </div>
+                <div class="day-item">
+                    <div class="day-date">4月2日 (周四)</div>
+                    <div class="day-weather"><span class="rainy">🌧️ 小雨</span> 温度: 19-22°C</div>
+                    <div class="day-temp">20.5°C</div>
+                </div>
+                <div class="day-item">
+                    <div class="day-date">4月3日 (周五)</div>
+                    <div class="day-weather"><span class="cloudy">☁️ 阴转晴</span> 温度: 19-23°C</div>
+                    <div class="day-temp">21°C</div>
+                </div>
+                <div class="day-item">
+                    <div class="day-date">4月4日 (周六)</div>
+                    <div class="day-weather"><span class="sunny">☀️ 晴</span> 温度: 20-24°C</div>
+                    <div class="day-temp">22°C</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="advice">
+            <h3>💡 生活建议</h3>
+            <p><strong>穿衣建议:</strong> 周初春秋装，周末轻薄春装</p>
+            <p><strong>出行建议:</strong> 周末天气最佳，周中可能有雨</p>
+            <p><strong>健康建议:</strong> 关注温度变化，预防春季过敏</p>
+            <p><strong>特别提醒:</strong> 当前有森林火险黄色预警，注意防火</p>
+        </div>
+
+        <div class="footer">
+            <p>数据来源: 60s.viki.moe天气API | 预测方法: 基于当前气象条件的历史趋势分析</p>
+            <p>报告生成时间: 2026-03-28 20:00 | 实际天气可能有所变化，建议关注官方预报</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -8,6 +8,18 @@
     "weather-query": {
       "version": "0.1.0",
       "installedAt": 1774698653841
+    },
+    "skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1774699565100
+    },
+    "proactive-agent-lite": {
+      "version": "1.0.0",
+      "installedAt": 1774699587172
+    },
+    "jpeng-self-improving": {
+      "version": "1.2.11",
+      "installedAt": 1774699626656
     }
   }
 }
