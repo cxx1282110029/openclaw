@@ -1,0 +1,31 @@
+{
+  "query": "人工智能最新发展",
+  "follow_up_questions": null,
+  "answer": "Recent AI advancements focus on natural language processing, computer vision, and generative AI, with applications in healthcare, finance, and autonomous systems. IBM predicts significant developments in open-source models, smaller AI models, and ethical governance by 2034. AI's role in predictive analytics and robotics continues to expand.",
+  "images": [],
+  "results": [
+    {
+      "url": "https://grapecity.csdn.net/6927d601791c233193d087ba.html",
+      "title": "深入剖析AI最新的技术趋势，领略各行业AI发展 - 葡萄城开发者空间",
+      "content": "AI技术正快速改变各行业，其核心趋势包括自然语言处理、计算机视觉、强化学习等。这些技术已在医疗、金融和零售领域实现创新应用，如医学影像诊断、欺诈",
+      "score": 0.999608,
+      "raw_content": null
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/24921453527",
+      "title": "2025年AI最新发展：十大趋势与技术突破全解析 - 知乎专栏",
+      "content": "2025年被称为人工智能技术的“爆发临界点”，从大模型的普惠化到量子计算的应用，从伦理治理到行业深度融合，AI正在重塑社会与经济的方方面面。以下结合全球",
+      "score": 0.9996049,
+      "raw_content": null
+    },
+    {
+      "url": "https://www.ibm.com/cn-zh/think/insights/artificial-intelligence-future",
+      "title": "人工智能的未来 - IBM",
+      "content": "自诞生以来，[生成式 AI](https://www.ibm.com/cn-zh/think/topics/generative-ai) 一直在不断发展。我们已经看到 OpenAI 和 Meta 等公司的开发者从大型模型转向更小、更便宜的模型，改进 AI 模型以使用更少的资源完成相同或更多的工作。随着 ChatGPT 等模型变得更加智能并能够更好地理解人类语言的细微差别，提示工程正在发生变化。由于 LLM 接受了更具体信息的培训，他们可以为专门行业提供深厚的专业知识，成为随时准备帮助完成任务的代理。. 获取有关最重要且最有趣的 AI 新闻的精选洞察分析。订阅我们的每周 Think 时事通讯。请参阅 [IBM 隐私声明](https://www.ibm.com/cn-zh/privacy)。. 从现在到 2034 年，AI 将成为我们个人与商业生活方方面面的组成部分。[GPT-4](https://www.ibm.com/cn-zh/think/topics/gpt) 等生成式 AI 模型在面向公众使用的短时间内就显示出了巨大的前景，但其局限性也已众所周知。AI 未来的定义将是转向用于实验的[开源大规模模型](https://www.ibm.com/cn-zh/think/topics/open-source-llms)，以及开发更小、更高效的 AI 模型，以提高易用性并降低成本。. AI 影响了多项核心技术的发展。AI 通过实现更准确的图像和视频分析，在推动[**计算机视觉**](https://www.ibm.com/cn-zh/think/topics/computer-vision)方面发挥了关键作用，这对自动驾驶汽车和医疗诊断等技术至关重要。在**自然语言处理 (NLP)** 方面，AI 提高了机器理解和生成人类语言的能力，改善了通信接口，并使更复杂的翻译和情感分析工具成为可能。. AI 通过处理和解释海量数据来提高[**预测性分析**](https://www.ibm.com/cn-zh/think/topics/predictive-analytics)**和[大数据分析](https://www.ibm.com/cn-zh/think/topics/big-data-analytics)**能力，以便预测趋势并为决策提供信息。在**机器人**领域，更自主和适应性更强的机器的开发简化了装配、勘探和服务交付等任务。此外，AI 驱动的[**物联网**](https://www.ibm.com/cn-zh/think/topics/internet-of-things) (IoT) 创新增强了设备的连接性和智能性，使家庭、城市和工业系统更加智能化。. 刚刚起步的多模态 AI 领域将在 2034 年得到全面测试和完善。单模态 AI 侧重于单一数据类型，如 NLP 或计算机视觉。相比之下，多模态 AI 更类似于人类通过理解视觉、语音、面部表情和语调变化中的数据进行沟通的方式。这项技术将整合文本、语音、图像、视频和其他数据，从而在人与计算机系统之间创建更直观的交互它有可能为高级[虚拟助理](https://www.ibm.com/cn-zh/think/topics/virtual-agent)和[聊天机器人](https://www.ibm.com/cn-zh/think/topics/chatbots)提供支持，使其能够理解复杂的询问，并提供定制的文本、视觉辅助或视频教程作为回应。. [API](https://www.ibm.com/cn-zh/think/topics/api) 驱动的 AI 和微服务将使企业能够以模块化的方式将高级 AI 功能集成到现有系统中。这种方法将加快定制应用程序的开发，而无需大量的 AI 专业知识。. 对于企业来说，更轻松的模型创建意味着更快的创新周期，以及为每个业务职能提供定制 AI 工具。[无代码](https://www.ibm.com/cn-zh/think/topics/no-code)和[低代码](https://www.ibm.com/cn-zh/think/topics/low-code)平台将支持非技术用户通过使用拖放组件、即插即用模块或引导式工作流程来创建 AI 模型。由于许多此类平台都是基于 LLM 的，因此用户还可以使用提示查询 AI 模型。. [自动机器学习](https://www.ibm.com/cn-zh/think/topics/automl)平台正在迅速改进，可以自动执行数据预处理、特征选择和超参数调整等任务。在未来十年中，自动机器学习将变得更加用户友好和易于访问，使人们能够在没有专业知识的情况下快速创建高性能的 AI 模型。[基于云的](https://www.ibm.com/cn-zh/think/topics/cloud-computing) AI 服务还将为企业提供预构建的 AI 模型，并可根据需要进行定制、集成和扩展。. 尽管仅仅是推测，但如果到 2034 年出现[通用人工智能](https://www.ibm.com/cn-zh/think/topics/artificial-general-intelligence-examples) (AGI) 系统，我们可能会看到这样的 AI 系统的曙光：能够自主生成、策划自己的训练数据集，从而在没有人工干预的情况下实现自我改进和适应。. 随着生成式 AI 在组织内部变得更加集中，公司可能会开始提供“[AI 幻觉](https://www.ibm.com/cn-zh/think/topics/ai-hallucinations)保险”。尽管进行了大量训练，但 AI 模型仍可能提供不正确或误导性的结果。这些错误通常源于训练数据不足、错误的假设或训练数据中的偏差。. I 发展的一个主要障碍是训练大型模型（例如大型语言模型 (LLM) 和神经网络）需要耗费大量时间、精力和成本。当前的硬件要求已接近传统计算基础设施的极限，这就是为什么创新将专注于增强硬件或创建全新的架构。[量子计算](https://www.ibm.com/cn-zh/think/topics/quantum-computing)为 AI 创新提供了一条有希望的途径，因为它可能会大大减少培训和运行大型 AI 模型所需的时间和资源。. 要实现 AI 的普及，AI 法规和道德标准必须取得重大进展。在[欧盟 AI 法案](https://www.ibm.com/cn-zh/think/topics/eu-ai-act)框架的推动下，关键的发展将是建立严格的风险管理系统，将 AI 分为不同的风险等级，并对高风险的 AI 提出更严格的要求。AI 模型，尤其是生成式模型和大型模型，可能需要满足透明度、稳健性和网络安全标准。继为医疗保健、金融和关键基础设施领域制定标准的《欧盟 AI 法案》之后，这些框架可能会在全球范围内扩展。. [道德](https://www.ibm.com/cn-zh/think/topics/ai-ethics)方面的考虑将影响法规的制定，包括禁止那些会带来不可接受的风险的系统，例如公共场所的社交评分和远程生物识别。AI 系统必须纳入人类监督，保护基本权利，解决偏见和公平性等问题，并保证负责任的部署。. 主动预测需求并自主决策的 AI 可能会成为个人和商业生活的核心部分。agentic AI 是指由独立运行的专门[代理](https://www.ibm.com/cn-zh/think/topics/ai-agents)组成的系统，每个代理都处理特定的任务。这些代理与数据、系统和人员交互以完成多步骤工作流程，使企业能够自动执行复杂流程，例如客户支持或网络诊断。与单体式[大型语言模型](https://www.ibm.com/cn-zh/think/topics/large-language-models) (LLM) 不同，agentic AI 能适应实时环境，使用更简单的决策算法和反馈循环来学习和改进。. “[影子 AI](https://www.ibm.com/cn-zh/think/insights/hidden-risk-shadow-data-ai-higher-costs)”（员工使用的未经授权的 AI 工具）带来的挑战将推动组织实施更严格的数据治理，确保只有经批准的 AI 系统才能访问敏感的专有数据。. 在制造业中，人工智能驱动式机器人可以精确地执行复杂的装配任务，提高生产率并减少缺陷。在医疗保健领域，自动诊断工具帮助医生更准确、更快速地识别疾病。金融、物流和客户体验领域的 AI 驱动的流程自动化和[机器学习](https://www.ibm.com/cn-zh/topics/machine-learning-algorithms)可以简化运营、降低成本并提高服务质量。通过处理重复性任务，AI 使人类能够专注于战略和创造性工作，促进创新和生产力。. [watsonx.ai](https://www.ibm.com/cn-zh/products/watsonx-ai) 将先进的 AI 功能与支持各行业的企业所需的灵活性相结合，帮助确保他们利用 AI 的力量产生实际影响，而不仅仅是为了顺应潮流。通过优先考虑用户友好性和效率，watsonx.ai 有望成为那些希望在未来十年使用 AI 的人不可或缺的资产。. 了解为什么最具影响力的 AI 发展可能是那些专注于治理、中间件、训练技术和管道，从而使生成式 AI 更可信、更易用的发展。](https://www.ibm.com/cn-zh/think/insights/artificial-intelligence-trends). 深入了解 watsonx.ai](https://www.ibm.com/cn-zh/products/watsonx-ai/foundation-models)   [IBM Granite. 深入了解 Granite](https://www.ibm.com/cn-zh/granite)   [人工智能 (AI) 咨询服务. 深入了解 IBM AI 咨询服务](https://www.ibm.com/cn-zh/consulting/artificial-intelligence). 1. [深入了解 watsonx.ai](https://www.ibm.com/cn-zh/products/watsonx-ai).",
+      "score": 0.9693242,
+      "raw_content": null
+    }
+  ],
+  "response_time": 1.58,
+  "request_id": "5543bf4e-4d65-4e1a-96f9-a5a793560007"
+}

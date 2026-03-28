@@ -1,0 +1,13 @@
+{
+  "name": "agent-browser",
+  "version": "1.0.0",
+  "description": "浏览器自动化技能 for OpenClaw",
+  "main": "SKILL.md",
+  "keywords": ["browser", "automation", "chrome", "chromium", "openclaw"],
+  "author": "一拳先生",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"测试浏览器技能\""
+  }
+}
